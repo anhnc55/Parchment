@@ -1,9 +1,9 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
     name: "Parchment",
-    platforms: [.iOS("9.0")],
+    platforms: [.iOS(.v13)],
     products: [
         .library(name: "Parchment", targets: ["Parchment"]),
     ],
